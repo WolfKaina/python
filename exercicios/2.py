@@ -1,1 +1,1 @@
-print ("Olá Mundo!")
+print (10 + 4)

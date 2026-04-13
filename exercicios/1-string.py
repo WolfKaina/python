@@ -3,7 +3,12 @@
 print ("Hello World!")
 print ('Hello World!')
 print ('''Hello World!''')
-print ("""Hello World!""")
+hello = """Hello
+
+separado do jeito que  o código está
+
+World!"""
+print (hello)
 
 
 #Concatenar
@@ -62,3 +67,27 @@ mensagem = "Bem vindo ao sistema, Kainã!"
 print("Kainã" in mensagem) #true
 print("Geovanna" in mensagem) #false
 
+
+#len() para contar quantos caracteres uma string possui
+nome = "Kainã"
+frase = "Kainã está aprendendo"
+print(len(nome))
+print(len(frase))
+
+
+#.count() conta quantas vezes uma certa string aparece
+
+texto = "paralelepipedo"
+texto2 = "pneumoultramicroscopicossilicovulcanoconiotico"
+
+print(texto.count("e"))
+print(texto2.count("o"))
+
+
+#.startswitch e endswitch | Verificando o começo e fim de uma string
+
+arquivo = 'documento.pdf'
+site = 'https://google.com'
+
+print(arquivo.endswith('.pdf'))
+print(site.startswith('https'))
